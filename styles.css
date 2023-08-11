@@ -133,3 +133,24 @@ button:hover{
     height: 100vh;
     background-color: red;
 }
+
+@media (max-width: 1030px){
+    .navbar{
+        width: 100%;
+        right: 0;
+    }
+    .content h1{
+        font-size: 50px;
+        padding: 0px 100px;
+    }
+}
+@media (max-width: 530px){
+    .navbar{
+        width: 100%;
+        right: 0;
+    }
+    .content h1{
+        font-size: 30px;
+        padding: 0px 50px;
+    }
+}
